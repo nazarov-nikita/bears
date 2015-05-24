@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+	meta(charset="UTF-8")
+	link(rel="stylesheet", href="style.css")
+	script(type="text/javascript" src="js/libs/jquery.min.js")
+	script(type="text/javascript" src="js/libs/socket.io.js")
+	script(type="text/javascript" src="js/keysRegister.js")
+	script(type="text/javascript" src="js/animation.js")
+	script(type="text/javascript" src="js/actionsRegister.js")
+	script(type="text/javascript" src="js/main.js")
+	title Bears
+body
+	div#field
+		div.bear#self
+			span.nickname Player
+		div#playersTable
+			table
+				tr
+					th.cellName.cells Nickname
+					th.cellFrags.cells Frags
+					th.cellDeath.cells Death
+	span.info Control keys:
+	span.info Move - "WASD";
+	span.info Attack - "J" or "K";
+	span.info Players List - "L".
